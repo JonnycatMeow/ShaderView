@@ -24,7 +24,7 @@ class Main extends Sprite
 
 		Lib.current.loaderInfo.uncaughtErrorEvents.addEventListener(UncaughtErrorEvent.UNCAUGHT_ERROR, onUncaughtError);
 
-		addChild(new FlxGame(1280, 720, PlayState, 60, 60));
+		addChild(new FlxGame(1280, 720, ShaderWeb, 60, 60));
 	}
 
 	private inline function onUncaughtError(event:UncaughtErrorEvent):Void
