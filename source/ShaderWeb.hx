@@ -5,6 +5,8 @@ import flixel.FlxSprite;
 import flixel.FlxState;
 import haxe.Exception;
 import sys.io.File;
+import openfl.utils._internal.Log; 
+import flixel.FlxG;  
 
 class ShaderWeb extends FlxState
 {
